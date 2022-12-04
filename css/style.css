@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 500px;
+    position: fixed;
+    margin-left: 300px ;
+    background-color: #E4450F ;
+
+}
+
+
+.kvadrati {
+    width: 400px;
+    height: 400px;
+    background-color: #F0830C;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #F0830C;
+    
+}
+.container:hover img{ 
+    filter: none;
+
+}
+
+img {
+    width: 100%;
+    filter: grayscale();
+
+}
+
+.mze {
+    
+    margin-top: 10px;
+    margin-left: 50%;
+    color: #080808;
+}
+
+.container:hover .mze {
+    text-decoration: underline;
+}
